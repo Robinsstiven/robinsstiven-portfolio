@@ -1,0 +1,75 @@
+.body-div {
+  margin-top: 40px;
+}
+.about-tittle {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.about-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.description-div {
+  width: 338px;
+  margin: 0 60px;
+}
+.projects {
+  position: relative;
+  background-color: #FF9D2E;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-width: 1080px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.projects::before, .projects::after {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 35%;
+  background-color: #f5e3ac;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: .6;
+}
+.projects::before {
+  left: 0;
+  top: 0;
+}
+.projects::after {
+  right: 0;
+  bottom: 0;
+}
+
+.project-title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 0;
+  font-size: 60px;
+}
+.projects-div {  
+  display: grid;
+  column-gap: 80px;
+  row-gap: 40px;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 300px 300px;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 1s, 
+  height 1s ease;
+}
+.project-thumbnail {
+  border-radius: 12px;
+  height: 280px;
+  z-index: 1;
+}
+.project-thumbnail:hover {
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  height: 290px;
+}
