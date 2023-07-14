@@ -51,6 +51,7 @@ p {
 .squares-div div {
   margin: 0 20px;
   border: 1px solid black; /* quitar después */
+  flex: 1;
 }
 .squares-div li {
   list-style-type: circle;
