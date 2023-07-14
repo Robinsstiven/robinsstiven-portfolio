@@ -1,0 +1,20 @@
+body {
+  padding: 20px;
+  margin-bottom: 80px;
+}
+table {
+  border-collapse: collapse;
+}
+td  {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+table {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+caption {
+  border: 1px solid #ccc;
+  padding: 8px;
+  font-weight: bold;
+}

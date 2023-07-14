@@ -1,0 +1,64 @@
+* {
+  font-family: Arial, Helvetica, sans-serif
+}
+body {
+  padding: 0 80px;
+}
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+h2 {
+  font-size: 1em;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: "DM Serif Display", serif;
+  text-align: center;
+}
+p {
+  margin: 0;
+}
+.header-menu {
+  border-bottom: 2px solid black;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.header-div {
+  border: 2px solid black;
+  padding: 20px;
+  font-size: 32px;
+}
+.header-menu-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.header-div div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-div p {
+  font-size: 0.5em;
+}
+.squares-div {
+  display: flex;
+  border: 2px solid black;
+  padding: 20px;
+}
+.squares-div div {
+  margin: 0 20px;
+  border: 1px solid black; /* quitar después */
+}
+.squares-div li {
+  list-style-type: circle;
+}
+.sqared-title {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+a {
+  display: block;
+}
