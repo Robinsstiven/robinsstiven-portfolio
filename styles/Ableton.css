@@ -4,6 +4,9 @@
 body {
   padding: 0 80px;
 }
+a {
+  display: block;
+}
 h1 {
   font-size: 3em;
   margin: 0;
@@ -18,6 +21,9 @@ h1, h2, h3 {
 }
 p {
   margin: 0;
+}
+button {
+  cursor: pointer;
 }
 .header-menu {
   border-bottom: 2px solid black;
@@ -43,12 +49,12 @@ p {
 .header-div p {
   font-size: 0.5em;
 }
-.squares-div {
+.squares-div, .background-colored-divs {
   display: flex;
   border: 2px solid black;
   padding: 20px;
 }
-.squares-div div {
+.squares-div div, .background-colored-divs div {
   margin: 0 20px;
   border: 1px solid black; /* quitar después */
   flex: 1;
@@ -56,10 +62,11 @@ p {
 .squares-div li {
   list-style-type: circle;
 }
-.sqared-title {
+.sqared-title, .background-colored-divs h3 {
   font-size: 1.8em;
   font-weight: bold;
 }
-a {
-  display: block;
+.body-div {
+  border: 2px solid black;
+  padding-bottom: 400px;
 }
