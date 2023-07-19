@@ -117,7 +117,8 @@
     <li>3:57:00 <p>Here is the first time when we move the computer move into a function.</p></li>
     <li>4:24:00 <p>Now in this part we will see how to apply parameters to reduce even more the code including it into a function</p></li>
     <li>4:45:00<p>Objects to add a score to the project</p></li>
-    <li>5:16:11<p>JSON and local storage</p></li>
+    <li>5:16:11<p>JSON and localStorage</p></li>
+    <li>6:30:42<p>DOM, how js modifies the HTML</p></li>
   </ol>
 
   <h3>Calculator</h3>
@@ -132,10 +133,15 @@
   <a href="https://robinsstiven.github.io/version-two/" target="_blank">This is my own website posted on Github</a>
   <br><br><br><br>
   <p><strong>Make a input or something like that where I can put the YouTube time to put into the HTML file later, for this I'll make use of JSON and localStorage so I can do  that over the site posted on GitHub</strong></p>
-  <input type="text" placeholder="Leave your next idea here" class="note-input-js">
+  <input type="text" placeholder="Leave your next idea here" class="js-note-input">
   <button onclick="
     saveTheText();
   ">Save note</button>
+  <p class="js-note-paragraph"></p>
+  <br><br>
+  <button class="js-remove-button" onclick="
+    removeNote();
+  ">Remove note</button>
   <ul>
     <li>blank</li>
   </ul>
