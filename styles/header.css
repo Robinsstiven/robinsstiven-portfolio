@@ -111,3 +111,25 @@
   object-position: top;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
+
+@media screen and (max-width: 768px) {
+  .header-div {
+    flex-direction: column;
+    height: auto;
+    padding: 40px;
+  }
+  .header-title {
+    text-align: center;
+    margin: none;
+  }
+  .profile-picture {
+    height: 300px;
+    width: 300px;
+  }
+  .text-element-column {
+    text-align: center;
+  }
+  .profile-picture-column {
+    margin-top: 20px;
+  }
+}
