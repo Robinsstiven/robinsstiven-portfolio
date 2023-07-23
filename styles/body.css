@@ -5,7 +5,10 @@
   .about-and-description {
     display: flex;
     flex-direction: column;
-  }  
+  }
+  .about-tittle {
+    margin-top: 20px;
+  }
 }
 
 .about-and-description {
@@ -31,7 +34,6 @@
   background-color: #FF9D2E;
   height: 100%;
   padding: 40px 15%;
-  
   overflow: hidden;
 }
 .projects::before, .projects::after {

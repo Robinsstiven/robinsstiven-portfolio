@@ -29,3 +29,10 @@ form {
   background-color: white;
   border-radius: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
