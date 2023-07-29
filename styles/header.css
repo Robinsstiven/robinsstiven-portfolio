@@ -24,6 +24,10 @@
   padding: 0;
   font-size: 16px;
 }
+.menu-ul.active {
+  display: flex;
+  flex-direction: column;
+}
 .li-element {
   display: inline-block;
   cursor: pointer;
@@ -60,6 +64,9 @@
     align-items: center;
     justify-content: center;
   }
+  .menu-toggle svg {
+    width: 40px;
+  }
 }
 .header-div {
   display: flex;
@@ -91,6 +98,10 @@
   font-weight: bold;
   margin-bottom: 14px;
   cursor: pointer;
+  transition: .3s;
+}
+.more-about-me-button:hover {
+  transform: scale(0.95);
 }
 .header-icons-div {
   margin-top: 14px;
