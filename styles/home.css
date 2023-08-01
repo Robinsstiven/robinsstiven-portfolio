@@ -3,6 +3,13 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Montserrat, Arial;
+}
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
 }
 
 /* HEADER PROPERTIES */
@@ -268,4 +275,46 @@
 }
 .education-div {
   margin-top: 40px;
+}
+/*END BODY*/
+
+/* FOOTER */
+.footer {
+  background-color: #6914FF;
+  border-top: 1px solid rgba(250, 250, 250, 0.849);
+  box-shadow: 0 -3px 3px rgba(0, 0, 0, 0.2);
+  background-position: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin-bottom: 0;
+  position: relative;
+}
+.footer-elements {
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.footer-li {
+  list-style-type: none;
+}
+.footer-logo {
+  height: fit-content;
+  align-self: center;
+}
+.footer img {
+  object-fit: contain;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10%;
+  }
 }
