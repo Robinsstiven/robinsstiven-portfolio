@@ -126,6 +126,9 @@ p {
 .hero button:hover {
   transform: scale(0.95);
 }
+.hero button:active {
+  transform: scale(0.9);
+}
 .hero .icons {
   margin-top: 14px;
 }
