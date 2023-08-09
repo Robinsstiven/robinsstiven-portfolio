@@ -66,35 +66,56 @@ header li {
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
 }*/
-.menu-toggle {
+.hamburger {
   display: none;
   cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-  /*THESE NEXT TWO PARTS ARE THE GREY MENU WHEN THE PAGE SHRINKS*/
-  header ul {
-    display: none;
-    position: fixed;
+  .responsive-menu {
+    position: absolute;
     width: 100%;
-    height: 100vh;
-    background-color: rgb(212, 212, 212);
-    top: 80px;
+    height: 400px;
+    background-color: rgb(224, 176, 18);
+    top: 72px;
     left: 0;
+    right: 0;
     text-align: center;
+    transition: .2s;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .responsive-menu-show {
+    display: flex;
+  }
+  
+  header ul li {
+    width: fit-content;
+    margin: 20px;
+  }
+  header ul li a {
+    color: white;
+    transition: .2s;
+  }
+  header ul li a:hover {
+    color: rgb(49, 0, 128);
+    background-color: white;
+    padding: 10px 16px;
+    border-radius: 24px;
   }
   /*nav ul li {
     display: block;
   }*/
   /*END*/
 
-  .menu-toggle {
+  .hamburger {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  }
-  .menu-toggle svg {
+    cursor: pointer;
     width: 40px;
   }
 }
