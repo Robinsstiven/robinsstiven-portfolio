@@ -1,4 +1,9 @@
-/* function updateTheStyle () {
-  const aboutButtonElem = document.querySelector('.js-about-button');
-  aboutButtonElem.classList.add('about-me-button');
-} */
+function displayMenu() {
+  const responsiveMenu = document.querySelector('.js-nav-menu');
+
+  if (responsiveMenu.classList.contains('responsive-menu')) {
+    responsiveMenu.classList.add('responsive-menu-show');
+  } else if (responsiveMenu.classList.contains('responsive-menu-show') && responsiveMenu.classList.contains('responsive-menu')) {
+    responsiveMenu.classList.remove('responsive-menu-show');
+  }
+}
