@@ -5,10 +5,7 @@
   box-sizing: border-box;
   font-family: Montserrat, Arial;
 }
-h1 {
-  margin: 0;
-}
-p {
+h1, p {
   margin: 0;
 }
 
@@ -291,9 +288,42 @@ header li {
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
   transform: scale(1.1);
 }
-.education-div {
-  margin-top: 40px;
+
+/* EDUCATION SECTION */
+.education {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(221, 221, 221);
 }
+.title-and-quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 878px;
+  margin-bottom: 20px;
+}
+.institute {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 80%;
+  box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.08);
+  background-color: white;
+  margin-bottom: 40px;
+}
+.institute img {
+  width: 240px;
+  margin-right: 20px;
+}
+.institute div {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /*END BODY*/
 
 /* FOOTER */

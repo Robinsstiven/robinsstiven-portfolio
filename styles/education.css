@@ -129,26 +129,29 @@ section {
   align-items: center;
   margin-top: 20px;
 }
-.games-section {
+.games-section, .supersimple-projects-section, .html-css-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.games-section h2,
-.games-section p {
+.games-section div, .supersimple-projects-section div, .html-css-section div {
+  width: 878px;
+}
+.games-section h2 {
   text-align: center;
 }
 .games-section ul {
   list-style-type: none;
 }
-.supersimple-projects-section ol {
-  padding-left: 20px; /* Correct it later when I came up with the way to do it */
+
+@media screen and (max-width: 786px) {
+  
+  .supersimple-projects-section div, .html-css-section div, .games-section div {
+    width: 90vw;
+  }
 }
-.html-css-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
+
 .html-css-section ol {
   padding-left: 20px;
 }
