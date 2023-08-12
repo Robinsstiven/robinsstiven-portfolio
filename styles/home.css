@@ -296,6 +296,7 @@ header li {
   flex-direction: column;
   align-items: center;
   background-color: rgb(221, 221, 221);
+  overflow: hidden; /* REMOVE THIS LINE OF CODE WHEN I MAKE THE RESPONSIVE VERSION*/
 }
 .education h1 {
   font-size: 48px;
