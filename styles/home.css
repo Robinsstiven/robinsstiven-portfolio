@@ -309,6 +309,9 @@ header li {
   width: 878px;
   margin-bottom: 20px;
 }
+.title-and-quote h1 {
+  color: rgb(49, 0, 128);
+}
 .title-and-quote p {
   margin-bottom: 14px;
 }
@@ -327,16 +330,36 @@ header li {
 }
 .institute img {
   width: 240px;
-  margin-right: 20px;
+  margin-right: 10px;
   height: 156px;
   object-fit: cover;
-
 }
 .institute div {
-  margin-left: 30px;
+  margin-left: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+.institute h3 {
+  font-size: 1.5em;
+  line-height: 28px;
+}
+.date-of-graduation {
+  color: rgb(224, 176, 18);
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .title-and-quote {
+    width: 80%;
+  }
+  .institute img {
+    width: 200px;
+  }
+  .institute div {
+    margin-left: 32px;
+  }
 }
 
 /*END BODY*/
@@ -376,9 +399,9 @@ form {
 }
 
 @media screen and (max-width: 768px) {
-  .footer {
+  footer {
     display: flex;
     flex-direction: column;
-    padding: 0 10%;
+    padding: 30px 20%;
   }
 }
