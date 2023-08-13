@@ -359,9 +359,11 @@ header li {
   .institute img {
     width: 8em;
     object-fit: cover;
+    height: auto;
   }
   .institute div {
     margin-left: 20px;
+    padding-right: 20px;
   }
 }
 
