@@ -251,6 +251,7 @@ header li {
   margin-bottom: 30px;
   margin-top: 0;
   font-size: 60px;
+  text-align: center;
 }
 .projects div {  
   display: grid;
@@ -353,6 +354,7 @@ header li {
 @media screen and (max-width: 768px) {
   .title-and-quote {
     width: 80%;
+    text-align: center;
   }
   .institute img {
     width: 8em;
