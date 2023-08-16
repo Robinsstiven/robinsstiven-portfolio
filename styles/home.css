@@ -398,11 +398,12 @@ footer {
   font-size: 14px;
 }
 
-.footer img {
+footer img {
   height: 40px;
+  color: white;
   margin-right: 10px;
-  background-color: white;
   border-radius: 50%;
+  overflow: hidden;
   cursor: pointer;
 }
 .footer .footer-imgs {
