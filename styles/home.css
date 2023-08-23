@@ -51,7 +51,6 @@ header li {
   display: none;
   cursor: pointer;
 }
- 
 
 @media screen and (max-width: 768px) {
   .responsive-menu {
