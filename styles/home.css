@@ -443,4 +443,5 @@ footer img {
   cursor: pointer;
   border: solid 2px white;
   display: none;
+  z-index: 2;
 }
