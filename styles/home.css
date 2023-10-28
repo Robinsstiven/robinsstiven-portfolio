@@ -429,3 +429,18 @@ footer img {
     margin-bottom: 40px;
   }
 }
+
+.go-to-the-top {
+  background-color: #3e0999;
+  color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 26px;
+  padding: 4px 15px 8px;
+  font-size: 28px;
+  font-weight: 500;
+  cursor: pointer;
+  border: solid 2px white;
+  display: none;
+}
