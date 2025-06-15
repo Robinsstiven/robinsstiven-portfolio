@@ -15,7 +15,7 @@ h1, p {
 header {
   display: flex;
   position: relative;
-  height: 4.5rem;
+  height: 15vh;
   padding: 0 10%;
   align-items: center;
   border-bottom: 1px solid rgba(105, 88, 88, 0.2);
