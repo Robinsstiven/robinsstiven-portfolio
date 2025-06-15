@@ -4,6 +4,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Montserrat, Arial;
+  background-color: rgb(52, 56, 68);
+  color: white;
 }
 h1, p {
   margin: 0;
